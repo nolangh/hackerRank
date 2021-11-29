@@ -1,11 +1,31 @@
-const vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
+const vowels = ["a", "e", "i", "o", "u"]; //put in cap vowels
 
 function vowelsAndConsonants(s) {
-  let stringVowels = [];
-  for (let i = 0; i < vowels.length; i++) {
-    if (vowels.includes(s[i])) {
-      stringVowels += s[i];
-    }
+  for (let i = 0; i < s.length; i++) {
+    if (i === vowels.includes(i)) {
+      console.log("i");
+    } else i === !vowels.includes(i);
+    console.log(i);
   }
-  console.log(stringVowels);
 }
+
+/* const vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
+
+function vowelsAndConsonants(s) {
+  let string = s;
+  let stringArray = string.split("");
+  console.log(stringArray);
+} */
+
+/* 
+function vowelsAndConsonants(s) {
+  let vowels = ["a", "e", "i", "o", "u"];
+
+  for (let v of s) {
+    if (vowels.includes(v)) console.log(v);
+  }
+
+  for (let v of s) {
+    if (!vowels.includes(v)) console.log(v);
+  }
+}*/
