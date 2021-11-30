@@ -1,31 +1,15 @@
-const grade = ["A", "B", "C", "D", "E", "F"];
-
 function getGrade(score) {
-  let a = 25 < score <= 30;
-  let b = 20 < score <= 25;
-  let c = 15 < score <= 20;
-  let d = 10 < score <= 15;
-  let e = 5 < score <= 10;
-  let f = 0 < score <= 5;
-
-  switch (true) {
-    case a:
-      console.log(grade[0]);
-      break;
-    case b:
-      console.log(grade[1]);
-      break;
-    case c:
-      console.log(grade[2]);
-      break;
-    case d:
-      console.log(grade[3]);
-      break;
-    case e:
-      console.log(grade[4]);
-      break;
-    case e:
-      console.log(grade[5]);
-      break;
-  }
+  if (score > 25 && score <= 30) {
+    return "A";
+  } else if (score > 20 && score <= 25) {
+    return "B";
+  } else if (score > 15 && score <= 20) {
+    return "C";
+  } else if (score > 10 && score <= 15) {
+    return "D";
+  } else if (score > 5 && score <= 10) {
+    return "E";
+  } else return "F";
 }
+
+// let grade = ["A", "B", "C", "D", "E", "F"];
