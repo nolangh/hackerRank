@@ -18,8 +18,7 @@ const letterD = [
 ];
 
 function getLetter(s) {
-  let L = s.charAt[0];
-
+  let L = s[0];
   if (letterA.includes(L)) {
     return "A";
   } else if (letterB.includes(L)) {
@@ -28,3 +27,5 @@ function getLetter(s) {
     return "C";
   } else return "D";
 }
+
+console.log(getLetter("abtcd"));
