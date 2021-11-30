@@ -7,24 +7,25 @@ function getGrade(score) {
   let d = 10 < score <= 15;
   let e = 5 < score <= 10;
   let f = 0 < score <= 5;
+
   switch (true) {
     case a:
       console.log(grade[0]);
       break;
     case b:
-      console.log(grade[0]);
+      console.log(grade[1]);
       break;
     case c:
-      console.log(grade[0]);
+      console.log(grade[2]);
       break;
     case d:
-      console.log(grade[0]);
+      console.log(grade[3]);
       break;
     case e:
-      console.log(grade[0]);
+      console.log(grade[4]);
       break;
     case e:
-      console.log(grade[0]);
+      console.log(grade[5]);
       break;
   }
 }
