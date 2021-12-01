@@ -5,9 +5,8 @@ function getSecondLargest(nums) {
     return b - a;
   });
   for (let v of sortedArray) {
-    if (v === v) {
-      sortedArray.slice(v);
+    if (v - v === 1) {
+      return sortedArray[0];
     }
   }
-  return sortedArray[1];
 }
