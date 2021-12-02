@@ -5,10 +5,6 @@ function getSecondLargest(nums) {
   let cleanedArray = nums.filter(
     (value, index) => nums.indexOf(value) === index
   );
-  let sortedArray = cleanedArray.sort((a, b) => a - b);
-  return sortedArray[1];
+  let sortedArray = cleanedArray.sort((a, b) => b - a);
+  return sortedArray[0];
 }
-
-/* function getSecondLargest(nums) {
-  let sortedArray = nums.sort((a, b) => a - b);
-} */
