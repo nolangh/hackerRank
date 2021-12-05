@@ -2,4 +2,8 @@
 // if an exception is thrown, catch it and print the contents of the exceptions "message" on a new line.
 //print s on a new line. if no exception was thrown, then this should be the reversed string; if an exception was thrown, this should be the original string.
 
-function reverseString(s) {}
+function reverseString(s) {
+    reverse string here 
+    catch exceptions here
+    print message here
+}
