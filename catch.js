@@ -6,6 +6,8 @@ function reverseString(s) {
   let string = s.split("");
 
   try {
-      console.log(string.reverse)
+    console.log(string.reverse);
+  } finally {
+    console.log(s);
   }
 }
